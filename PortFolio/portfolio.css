@@ -1,0 +1,89 @@
+body {
+    background: linear-gradient(to bottom, #FAF6E3  0%, #FAF6E3 48%, rgb(241, 240, 232) 49%, rgb(241, 240, 232) 100%);
+}
+
+.navbar {
+    position: fixed !important;
+    z-index: 10 !important;
+}
+
+.nav-link {
+   margin-left: 20px;
+}
+
+.code {
+    margin-top: 0.5rem;
+    margin-left: 24rem;
+    color: lightseagreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    margin-left: 2rem;
+}
+.container img {
+    max-width: 40%;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.container .text {
+    max-width: 60%;
+}
+
+.container .text p {
+    margin-bottom: 2rem;
+    line-height: 1.8rem;
+}
+
+.contact .icons {
+    margin-bottom: 1.5rem;
+}
+
+.contact .contact-me button {
+    background-color: purple;
+    color: white;
+    padding: 0.5rem;
+    margin-right: 1rem;
+}
+
+.container2 {
+    display: flex;
+}
+.container2 img {
+    max-width: 40%;
+    height: auto;
+    margin-right: 20px;
+}
+.container2 .text {
+    max-width: 60%;
+}
+
+.project {
+    display: flex;
+}
+
+.card {
+    margin: 2rem;
+}
+
+.container4 {
+    display: flex;
+    margin-left: 2rem;
+}
+.container4 img {
+    max-width: 30%; 
+    max-height: 400px;
+    margin-right: 20px;
+    margin-left: 2rem;
+    border-radius: 50%;
+    box-shadow: 10px 10px 25px black; 
+}
+.container4 .text {
+    max-width: 60%;
+}
+
+.container4 h5 {
+    opacity: 0.5;
+}
